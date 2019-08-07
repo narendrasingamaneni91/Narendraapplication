@@ -27,6 +27,9 @@
 	<build>
 		<finalName>cangkitsolutions</finalName>
 	</build>
+	<pluginGroups>
+        <pluginGroup>org.sonarsource.scanner.maven</pluginGroup>
+    </pluginGroups>
  <distributionManagement>
     <repository>
         <id>central</id>
