@@ -27,5 +27,12 @@
 	<build>
 		<finalName>cangkitsolutions</finalName>
 	</build>
+ <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>LAPTOP-CU0D30CR-releases</name>
+        <url>http://localhost:8081/artifactory/jenkins_integration</url>
+    </repository>
+ </distributionManagement>
 </project>
 
