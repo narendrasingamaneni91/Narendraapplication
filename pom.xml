@@ -27,13 +27,7 @@
 	<build>
 		<finalName>cangkitsolutions</finalName>
 	
- <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>LAPTOP-CU0D30CR-releases</name>
-        <url>http://localhost:8081/artifactory/jenkins_integration</url>
-    </repository>
- </distributionManagement>
+ 
 	<plugins>
 		<plugin>
     <groupId>org.jacoco</groupId>
@@ -56,5 +50,12 @@
 </plugin>
 	</plugins>
 	</build>
+	<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>LAPTOP-CU0D30CR-releases</name>
+        <url>http://localhost:8081/artifactory/jenkins_integration</url>
+    </repository>
+ </distributionManagement>
 </project>
 
