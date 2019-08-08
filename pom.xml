@@ -26,7 +26,6 @@
 	
 	<build>
 		<finalName>cangkitsolutions</finalName>
-	</build>
 	
  <distributionManagement>
     <repository>
@@ -56,5 +55,6 @@
     </executions>
 </plugin>
 	</plugins>
+	</build>
 </project>
 
