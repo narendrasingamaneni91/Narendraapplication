@@ -11,10 +11,9 @@ pipeline {
         bat 'mvn install'
       }
     }
-    stage('artifact') {
+    stage('sonarqube') {
       steps {
-        archiveArtifacts(artifacts: '**/*.war', onlyIfSuccessful: true)
-        bat 'mvn deploy'
+        bat 'mvn sonar:sonar'
       }
     }
   }
