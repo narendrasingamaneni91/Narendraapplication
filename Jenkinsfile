@@ -11,5 +11,11 @@ pipeline {
         bat 'mvn install'
       }
     }
+    stage('artifact') {
+      steps {
+        archiveArtifacts(artifacts: '**/*.war', onlyIfSuccessful: true)
+        bat 'mvn deploy'
+      }
+    }
   }
 }
