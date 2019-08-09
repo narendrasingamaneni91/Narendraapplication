@@ -16,5 +16,10 @@ pipeline {
         bat 'echo "ajay"'
       }
     }
+    stage('builds') {
+      steps {
+        bat 'mvn install'
+      }
+    }
   }
 }
