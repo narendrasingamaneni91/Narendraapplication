@@ -11,5 +11,10 @@ pipeline {
         bat 'java -version'
       }
     }
+    stage('name') {
+      steps {
+        bat 'echo "ajay"'
+      }
+    }
   }
 }
