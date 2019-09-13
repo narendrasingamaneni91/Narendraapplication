@@ -27,7 +27,7 @@
 	<div class="container">
 
 		<header>
-			<h1>Cangk Solutions Pvt Ltd . DEVOPS-TRAINING: 9666664184 (Narendra) ...</h1>
+			<h1>Cangk Solutions Pvt Ltd . DEVOPS-TRAINING: 9666664184 (Madhu) ...</h1>
 		</header>
 
 		<div id="tabs">
