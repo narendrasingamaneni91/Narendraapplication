@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('checkout') {
       steps {
-        git 'https://github.com/madhurichittabathina/Narendraapplication.git'
+        git 'https://github.com/madhurichittabathina/madhuapp.git'
       }
     }
     stage('build') {
