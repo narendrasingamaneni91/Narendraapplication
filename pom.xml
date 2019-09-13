@@ -48,14 +48,32 @@
         </execution>
     </executions>
 </plugin>
+		<plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.4.0.905</version>
+            </plugin>
+		<plugin>
+				<groupId>org.jacoco</groupId>
+				<artifactId>jacoco-maven-plugin</artifactId>
+				<version>0.8.3</version>
+				<configuration>
+					<destFile>${sonar.jacoco.reportPaths}</destFile>
+					<append>true</append>
+				</configuration>
+				<executions>
+					<execution>
+						<id>agent</id>
+						<goals>
+							<goal>prepare-agent</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+
 	</plugins>
 	</build>
-	<distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>LAPTOP-CU0D30CR-releases</name>
-        <url>http://localhost:8081/artifactory/jenkins_integration</url>
-    </repository>
- </distributionManagement>
+	
 </project>
 
