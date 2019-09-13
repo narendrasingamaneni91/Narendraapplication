@@ -21,11 +21,10 @@ pipeline {
         bat 'mvn sonar:sonar'
       }
     }
-    stage('Email Notification'){
-       steps {
-    
-            mail bcc: '', body: 'DevOps', cc: '', from: 'madhuri.chittabathina92@gmail.com', replyTo: '', subject: 'hi', to: 'madhuri.chittabathina92@gmail.com'
-    }
+    stage('Email Notification') {
+      steps {
+        mail(body: 'DevOps', from: 'madhuri.chittabathina92@gmail.com', subject: 'hi', to: 'madhuri.chittabathina92@gmail.com')
+      }
     }
     stage('deploy') {
       steps {
