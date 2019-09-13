@@ -24,7 +24,7 @@ pipeline {
     stage('Email Notification'){
        steps {
     
-            mail bcc: '', body: 'DevOps', cc: '', from: 'ajay.renati@gmail.com', replyTo: '', subject: 'hi', to: 'ajay.renati@gmail.com'
+            mail bcc: '', body: 'DevOps', cc: '', from: 'madhuri.chittabathina92@gmail.com', replyTo: '', subject: 'hi', to: 'madhuri.chittabathina92@gmail.com'
     }
     }
     stage('deploy') {
