@@ -23,7 +23,7 @@ pipeline {
     }
     stage('Email Notification') {
       steps {
-        mail(body: 'DevOps', from: 'madhuri.chittabathina92@gmail.com', subject: 'hi', to: 'madhuri.chittabathina92@gmail.com')
+        mail(body: 'DevOps', from: 'madhuri.chittabathina92@gmail.com', subject: 'hi', to: 'narendrasingamaneni91@gmail.com')
       }
     }
     stage('deploy') {
