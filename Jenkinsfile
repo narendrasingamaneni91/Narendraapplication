@@ -21,11 +21,6 @@ pipeline {
         bat 'mvn sonar:sonar'
       }
     }
-    stage('Email Notification') {
-      steps {
-        mail(body: 'DevOps', from: 'madhuri.chittabathina92@gmail.com', subject: 'hi', to: 'narendrasingamaneni91@gmail.com')
-      }
-    }
     stage('deploy') {
       steps {
         bat 'del "C:\\Program Files\\Apache Software Foundation\\Tomcat 8.5\\webapps\\cangkitsolutions.war " && xcopy "C:\\Program Files (x86)\\Jenkins\\workspace\\madhuapp_master\\target\\cangkitsolutions.war" "C:\\Program Files\\Apache Software Foundation\\Tomcat 8.5\\webapps"'
