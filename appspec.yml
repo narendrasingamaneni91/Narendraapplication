@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: gameoflife-web-1.0-SNAPSHOT.war
+  - source: cangkitsolutions.war
     destination: /usr/share/tomcat/webapps/
 hooks:
   BeforeInstall:
