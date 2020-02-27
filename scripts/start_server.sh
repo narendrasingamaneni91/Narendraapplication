@@ -1,3 +1,3 @@
 
 #!/bin/bash
-systemctl status tomcat.service
+systemctl start tomcat.service
