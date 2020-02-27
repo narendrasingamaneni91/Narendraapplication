@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: target/cangkitsolutions.war
+  - source: cangkitsolutions.war
     destination: /usr/share/tomcat/webapps/
 hooks:
   BeforeInstall:
@@ -20,4 +20,5 @@ hooks:
     - location: scripts/stop_server.sh
       timeout: 300
       runas: root
+
 
