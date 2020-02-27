@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: cangkitsolutions.war
+  - source: target/cangkitsolutions.war
     destination: /usr/share/tomcat/webapps/
 hooks:
   BeforeInstall:
