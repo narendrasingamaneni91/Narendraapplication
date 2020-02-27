@@ -1,4 +1,4 @@
 
 #!/bin/bash
-sudo systemctl start tomcat
+systemctl start tomcat
 
