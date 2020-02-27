@@ -2,5 +2,5 @@
 #!/bin/bash
 isExistApp=`pgrep java`
 if [[ -n  $isExistApp ]]; then
-   service tomcat stop
+   systemctl stop tomcat.service  
 fi
