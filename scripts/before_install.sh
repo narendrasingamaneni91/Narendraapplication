@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -rf /usr/share/tomcat/webapps/cangkitsolutions.war*
+rm -rf /usr/share/tomcat/webapps/target/cangkitsolutions.war*
