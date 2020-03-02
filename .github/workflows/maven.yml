@@ -19,6 +19,6 @@ jobs:
       uses: actions/upload-artifact@v1.0.0
       with:
       # Artifact name
-     name: 
-    # Directory containing files to upload
+    name: 
+      # Directory containing files to upload
     path: https://s3.console.aws.amazon.com/s3/buckets/madhu-sample/?region=ap-southeast-1&tab=overview
