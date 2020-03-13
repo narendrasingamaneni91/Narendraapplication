@@ -1,0 +1,14 @@
+name: 'Setup JFrog CLI'
+description: 'Install and configure JFrog CLI.'
+author: 'JFrog'
+inputs:
+    version:
+        description: 'JFrog CLI Version'
+        default: '1.33.1'
+        required: false
+runs:
+    using: 'node12'
+    main: 'lib/main.js'
+branding:
+    icon: 'terminal'
+    color: 'green'
