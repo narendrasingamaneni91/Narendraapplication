@@ -22,8 +22,7 @@ jobs:
         java-version: 1.8
     - name: Build with Maven
       run: mvn -B package --file pom.xml
-    - name: copy file 
-      run: cp /home/runner/work/madhuapp/madhuapp/target/cangkitsolutions.war /var/lib/docker/tmp/my-image-name
+    
       
  
       
