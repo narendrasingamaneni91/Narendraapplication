@@ -23,6 +23,18 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     
+  build2:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Publish to Registry
+      uses: HurricanKai/Publish-Docker-Github-Action@master
+      with:
+        name: madhu216/githubactionsrepo
+        username: madhu216
+        password: madhu216@216
+        dockerfile: Dockerfile
+    
       
  
       
