@@ -30,7 +30,7 @@ jobs:
         name: Package
         path: staging
     - name: deploy-action
-    - uses: madhurichittabathina/deploy-action@v0.1.0
+      uses: madhurichittabathina/deploy-action@v0.1.0
    
    # - uses: actions/checkout@master
    # - name: Publish to Registry
