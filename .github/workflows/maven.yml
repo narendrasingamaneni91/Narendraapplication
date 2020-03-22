@@ -24,9 +24,9 @@ jobs:
       run: mvn -B package --file pom.xml
     - run: mkdir staging && cp target/*.war staging
     - uses: actions/upload-artifact@v1
-    with:
-      name: Package
-      path: staging
+      with:
+        name: Package
+        path: staging
    
    # - uses: actions/checkout@master
    # - name: Publish to Registry
