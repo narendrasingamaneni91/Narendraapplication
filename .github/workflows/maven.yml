@@ -30,4 +30,4 @@ jobs:
         name: Package
         path: staging
     - name: deploy-action
-      uses: rohit-gohri/deploy-action@v0.1.0
+      uses: madhurichittabathina/deploy-action@v0.1.0
