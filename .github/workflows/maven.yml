@@ -29,5 +29,5 @@ jobs:
       with:
         name: Package
         path: staging
-    - name: deploy-action
-      uses: narendrasingamaneni91/deploy-action@v0.1.0
+    #- name: deploy-action
+    #  uses: narendrasingamaneni91/deploy-action@v0.1.0
