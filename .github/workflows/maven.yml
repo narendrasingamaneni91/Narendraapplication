@@ -23,7 +23,8 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - run: mkdir staging && cp target/*.war staging
-    - run: pwd  
+    - run: pwd
+    - run: ls -al    
     - uses: actions/upload-artifact@v1
       with:
         name: Package
