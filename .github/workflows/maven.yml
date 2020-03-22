@@ -25,7 +25,7 @@ jobs:
     - run: mkdir staging && cp target/*.war staging
     - run: pwd
     - run: ls -al
-   #- run: cd staging/ls  
+    - run: cd staging/ls  
     - uses: actions/upload-artifact@v1
       with:
         name: Package
