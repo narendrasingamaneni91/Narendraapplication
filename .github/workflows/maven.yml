@@ -22,6 +22,7 @@ jobs:
         java-version: 1.8
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+    - run: mvn -B test --file pom.xml  
     - run: mkdir staging && cp target/*.war staging
     - run: pwd
     - run: ls -al    
@@ -29,13 +30,6 @@ jobs:
       with:
         name: Package
         path: staging
-    - name: Download artifact
-      uses: actions/download-artifact@v1.0.0
-      with:
-        # Artifact name
-        name: package
-        # Destination path
-        path: 
       #- name: Upload a Build Artifact via S3
     #  uses: ebuckthal/s3-upload-artifact@v7
     #  with:
