@@ -37,6 +37,7 @@ jobs:
       with:
         name: release
         path: staging
+        
    
    # - uses: actions/checkout@master
    # - name: Publish to Registry
