@@ -29,3 +29,5 @@ jobs:
       with:
         name: Package
         path: staging
+    - name: deploy-action
+      uses: rohit-gohri/deploy-action@v0.1.0
