@@ -36,12 +36,14 @@ jobs:
        username: madhu216
        password: madhu216@216
        dockerfile: Dockerfile
-    - name: Upload a Build Artifact via S3
-      uses: ebuckthal/s3-upload-artifact@v7
-      with:
+    - name: tomcat deploy
+      run: curl -v -u admin:admin -T /home/runner/work/madhuapp/madhuapp/target/cangkitsolutions.war 'http://ec2-18-224-15-39.us-east-2.compute.amazonaws.com//manager/text/deploy?path=/cangk_solutions
+   # - name: Upload a Build Artifact via S3
+   #   uses: ebuckthal/s3-upload-artifact@v7
+   #   with:
         # bucket name
-        bucket: githubaction
-        # destination key in bucket
-        key: AKIAYA7GUKHLATBHUZWC
+   #     bucket: githubaction
+   #     # destination key in bucket
+   #     key: AKIAYA7GUKHLATBHUZWC
         # file to upload
-        path: https://githubaction.s3.us-east-2.amazonaws.com/CICD/
+   #     path: https://githubaction.s3.us-east-2.amazonaws.com/CICD/
