@@ -30,7 +30,13 @@ jobs:
       with:
         name: Package
         path: staging
-      #- name: Upload a Build Artifact via S3
+    - uses: HurricanKai/Publish-Docker-Github-Action@master
+      with:
+       name: madhu216/githubactionsrepo
+       username: madhu216
+       password: madhu216@216
+       dockerfile: Dockerfile
+  #- name: Upload a Build Artifact via S3
     #  uses: ebuckthal/s3-upload-artifact@v7
     #  with:
         # bucket name
