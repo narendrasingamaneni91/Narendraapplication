@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cangk!</title>
+<title>Qentelli!</title>
 <link rel="stylesheet"
 	href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 <link rel="stylesheet" href="/resources/demos/style.css">
@@ -27,7 +27,7 @@
 	<div class="container">
 
 		<header>
-			<h1>Cangk Solutions Pvt Ltd . DEVOPS-TRAINING: qentelli</h1>
+			<h1>Qentelli Solutions Pvt Ltd . DEVOPS: qentelli</h1>
 		</header>
 
 		<div id="tabs">
@@ -35,7 +35,7 @@
 			<li><a href="#tabs-1">Jenkins</a></li>
 				<li><a href="#tabs-2">Docker</a></li>
 				<li><a href="#tabs-3">Ansible</a></li>
-				<li><a href="#tabs-4">Mobiles</a></li>
+				<li><a href="#tabs-4">Kubernetes</a></li>
 			</ul>
 			<div id="tabs-1">
 				<p>Jenkins is a powerful application that allows continuous
@@ -101,8 +101,8 @@
 					has to choose Chef or Puppet.</p>
 			</div>
 			<div id="tabs-4">
-				<p>Samsung</p>
-				<p>Apple</p>
+				<p>Kubernetes is an open-source container-orchestration system for automating application deployment, scaling, and management. It was originally designed by Google, and is now maintained by the Cloud Native Computing Foundation</p>
+				
 			</div>
 		</div>
 
