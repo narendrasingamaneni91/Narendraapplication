@@ -36,14 +36,3 @@ jobs:
        username: madhu216
        password: madhu216@216
        dockerfile: Dockerfile
-  #- name: Upload a Build Artifact via S3
-    #  uses: ebuckthal/s3-upload-artifact@v7
-    #  with:
-        # bucket name
-    #    bucket: githubaction
-       # destination key in bucket
-     #   key: test
-       # file to upload
-     #   path: https://s3.console.aws.amazon.com/s3/buckets/githubaction/CICD/?region=us-east-2
-    #- name: deploy-action
-    #  uses: madhuchittabathina/deploy-action@v0.1.0
