@@ -37,4 +37,4 @@ jobs:
        password: madhu216@216
        dockerfile: Dockerfile
     - name: tomcat deploy
-      run: curl -v -u jenkins:jenkins -T /home/runner/work/madhuapp/madhuapp/target/cangkitsolutions.war 'http://ec2-18-224-15-39.us-east-2.compute.amazonaws.com:8080//manager/text/deploy?path=/cangkitsolutions'   
+      run: curl -v -u jenkins:jenkins -T /home/runner/work/madhuapp/madhuapp/target/cangkitsolutions.war 'http://ec2-18-224-15-39.us-east-2.compute.amazonaws.com:8080//manager/text/deploy?path=/cangkitsolutions.war'   
