@@ -37,7 +37,7 @@ jobs:
        password: madhu216@216
        dockerfile: Dockerfile
     - name: tomcat deploy
-      run: curl -v -u admin:admin -T /home/runner/work/madhuapp/madhuapp/target/cangkitsolutions.war 'http://ec2-18-224-15-39.us-east-2.compute.amazonaws.com//manager/text/deploy?path=/cangk_solutions
+      run: curl -v -u admin:admin -T /home/runner/work/madhuapp/madhuapp/target/cangkitsolutions.war 'http://ec2-18-224-15-39.us-east-2.compute.amazonaws.com//manager/text/deploy?path=/cangk_solutions'
    # - name: Upload a Build Artifact via S3
    #   uses: ebuckthal/s3-upload-artifact@v7
    #   with:
