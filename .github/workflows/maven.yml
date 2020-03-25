@@ -30,3 +30,9 @@ jobs:
       with:
         name: Package
         path: staging
+    - uses: HurricanKai/Publish-Docker-Github-Action@master
+      with:
+       name: singama91/gitactions_cangk
+       username: singama91
+       password: Narendra#457
+       dockerfile: Dockerfile
