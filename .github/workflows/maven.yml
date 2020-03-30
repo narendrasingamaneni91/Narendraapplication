@@ -30,6 +30,18 @@ jobs:
       with:
         name: Package
         path: staging
+    - name: Setup sonarqube
+      uses: warchant/setup-sonar-scanner@v1
+    - name: Run sonarqube
+      env:
+       # to get access to secrets.SONAR_TOKEN, provide GITHUB_TOKEN
+       GITHUB_TOKEN: 9021b1208eda164e342460a4c9059c61e6fc10ec
+      run: sonar-scanner
+         -Dsonar.login=e1d3aa3cf226d03afb9ac04f8383c9fc297f47b1<
+         -Dsonar.organization=madhurichittabathina
+         -Dsonar.host.url=https://sonarcloud.io
+         -Dsonar.projectKey=madhurichittabathina_Qentellisolutions
+         #-Dsonar.exclusions=**/*.java,**/*.jar
     - uses: HurricanKai/Publish-Docker-Github-Action@master
       with:
        name: madhu216/githubactionsrepo
