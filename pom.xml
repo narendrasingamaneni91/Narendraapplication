@@ -9,10 +9,10 @@
 
 	<properties>
   <sonar.projectKey>madhurichittabathina_Qentellisolutions</sonar.projectKey>
-  <sonar.organization>madhurichittabathina</sonar.organization>
+  <sonar.organization>madhurichittabathina-1</sonar.organization>
   <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-  <sonar.login>e1d3aa3cf226d03afb9ac04f8383c9fc297f47b1</sonar.login>
- </properties>
+  <sonar.login>5e9bf695a4ac910b0aea1200dfd2ce6b6c024c57</sonar.login>
+</properties>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
