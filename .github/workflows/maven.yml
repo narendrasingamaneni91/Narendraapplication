@@ -48,5 +48,5 @@ jobs:
        username: singama91
        password: Narendra#457
        dockerfile: Dockerfile
-    - name: tomcat deploy
+    - name: tomcat deploy 
       run: curl -v -u tomcat:tomcat -T /home/runner/work/Narendraapplication/Narendraapplication/target/cangkitsolutions.war 'ec2-13-127-73-83.ap-south-1.compute.amazonaws.com:8080///manager/text/deploy?path=/cangkitsolutions.war'   
