@@ -30,6 +30,8 @@ jobs:
       with:
         name: Package
         path: staging
+    - name: Setup sonarqube
+      uses: warchant/setup-sonar-scanner@v1
     - name: Run sonarqube
       env:
        # to get access to secrets.SONAR_TOKEN, provide GITHUB_TOKEN
