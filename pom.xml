@@ -8,10 +8,9 @@
 	<version>1.1-RELEASE</version>
 
 	<properties>
-  <sonar.projectKey>madhurichittabathina_Qentellisolutions</sonar.projectKey>
-  <sonar.organization>madhurichittabathina-1</sonar.organization>
-  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-  <sonar.login>5e9bf695a4ac910b0aea1200dfd2ce6b6c024c57</sonar.login>
+  <sonar.projectKey>Qentellisolutions</sonar.projectKey>
+  <sonar.host.url>http://18.223.76.84:9000</sonar.host.url>
+  <sonar.login>6edc2d3c60eb8b19e9aec5681db376b6707e7665</sonar.login>
 </properties>
 	<dependencies>
 		<dependency>
