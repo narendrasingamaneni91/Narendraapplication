@@ -35,7 +35,7 @@
 			<li><a href="#tabs-1">Jenkins</a></li>
 				<li><a href="#tabs-2">Docker</a></li>
 				<li><a href="#tabs-3">Ansible</a></li>
-				<li><a href="#tabs-4">Mobiles</a></li>
+				<li><a href="#tabs-4">Kubernetes</a></li>
 			</ul>
 			<div id="tabs-1">
 				<p>Jenkins is a powerful application that allows continuous
@@ -101,8 +101,9 @@
 					has to choose Chef or Puppet.</p>
 			</div>
 			<div id="tabs-4">
-				<p>Samsung</p>
-				<p>Apple</p>
+				<p>Kubernetes is an open-source container-orchestration system for automating computer application deployment, scaling, and management. 
+				   It was originally designed by Google and is now maintained by the Cloud Native Computing Foundation.</p>
+				<p>workshop-kubernetes</p>
 			</div>
 		</div>
 
