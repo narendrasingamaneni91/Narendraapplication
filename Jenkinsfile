@@ -25,5 +25,17 @@ pipeline {
       }
     }
 
+    stage('build') {
+      steps {
+        bat 'mvn clean package'
+      }
+    }
+
+    stage('Archive artifacts') {
+      steps {
+        archiveArtifacts '*.war'
+      }
+    }
+
   }
 }
