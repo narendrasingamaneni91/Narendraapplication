@@ -1,4 +1,4 @@
-package com.cangk;
+package com.gamutkart;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
