@@ -21,37 +21,24 @@
 			<version>3.1.0</version>
 			<scope>provided</scope>
 		</dependency>
-		<dependency>
-		    <groupId>org.codehaus.mojo</groupId>
-		    <artifactId>sonar-maven-plugin</artifactId>
-		    <version>3.6.0.1398</version>
-		    <type>pom</type>
-		 </dependency>
 			
 	</dependencies>
-	<properties>
-	  <sonar.projectKey>narendrasingamaneni91_Narendraapplication</sonar.projectKey>
-	  <sonar.organization>narendrasingamaneni91</sonar.organization>
-	  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-	  <sonar.login>8a761c323506986cdb9df91be0e72543319004c0</sonar.login>
-	</properties>
 	
 	<build>
 		<finalName>cangkitsolutions</finalName>
 	</build>
-<distributionManagement>
+<!--<distributionManagement>
     <repository>
         <id>central</id>
-        <name>DESKTOP-29T2KOJ-releases</name>
-        <url>http://localhost:8081/artifactory/testdevops</url>
+        <name>Jayapaul-releases</name>
+        <url>http://localhost:8081/artifactory/jayapal_devops</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>DESKTOP-29T2KOJ-snapshots</name>
-        <url>http://localhost:8081/artifactory/testdevops</url>
+        <name>Jayapaul-snapshots</name>
+        <url>http://localhost:8081/artifactory/jayapal_devops</url>
     </snapshotRepository>
 </distributionManagement>
-
-
+-->
 </project>
 
